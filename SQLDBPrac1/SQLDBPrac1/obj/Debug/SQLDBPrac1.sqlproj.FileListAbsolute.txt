@@ -1,0 +1,10 @@
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\SQLDBPrac1\SQLDBPrac1\bin\Debug\SQLDBPrac1.dacpac
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\SQLDBPrac1\SQLDBPrac1\bin\Debug\SQLDBPrac1.dll
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\SQLDBPrac1\SQLDBPrac1\bin\Debug\SQLDBPrac1.pdb
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\SQLDBPrac1\SQLDBPrac1\obj\Debug\SQLDBPrac1.sqlproj.AssemblyReference.cache
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\SQLDBPrac1\SQLDBPrac1\obj\Debug\Model.xml
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\SQLDBPrac1\SQLDBPrac1\obj\Debug\refactor.xml
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\SQLDBPrac1\SQLDBPrac1\obj\Debug\postdeploy.sql
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\SQLDBPrac1\SQLDBPrac1\obj\Debug\predeploy.sql
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\SQLDBPrac1\SQLDBPrac1\obj\Debug\SQLDBPrac1.dll
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\SQLDBPrac1\SQLDBPrac1\obj\Debug\SQLDBPrac1.pdb
