@@ -1,8 +1,8 @@
-﻿CREATE TABLE [dbo].[Apoderado]
+﻿CREATE TABLE [dbo].[APODERADO]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [Nombre] NVARCHAR(50) NOT NULL, 
     [Telefono] NVARCHAR(50) NOT NULL, 
-    [ID_Alumno] INT NOT NULL, 
-    CONSTRAINT [FK_Apoderado_ToTable] FOREIGN KEY ([ID_Alumno]) REFERENCES [Alumno]([Id])
+    [Id_Alumno] INT NOT NULL, 
+    CONSTRAINT [FK_APODERADO_ALUMNO] FOREIGN KEY ([Id_Alumno]) REFERENCES [ALUMNO]([Id])
 )

@@ -1,5 +1,5 @@
 ﻿/*
-Script de implementación para DBPrac1
+Script de implementación para DBPRac1
 
 Una herramienta generó este código.
 Los cambios realizados en este archivo podrían generar un comportamiento incorrecto y se perderán si
@@ -13,10 +13,10 @@ SET NUMERIC_ROUNDABORT OFF;
 
 
 GO
-:setvar DatabaseName "DBPrac1"
-:setvar DefaultFilePrefix "DBPrac1"
-:setvar DefaultDataPath "C:\Users\jairt\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
-:setvar DefaultLogPath "C:\Users\jairt\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
+:setvar DatabaseName "DBPRac1"
+:setvar DefaultFilePrefix "DBPRac1"
+:setvar DefaultDataPath "C:\Users\Cross\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
+:setvar DefaultLogPath "C:\Users\Cross\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
 
 GO
 :on error exit
@@ -257,15 +257,15 @@ CREATE TABLE [dbo].[ALUMNO] (
 
 
 GO
-PRINT N'Creando Tabla [dbo].[Apoderado]...';
+PRINT N'Creando Tabla [dbo].[APODERADO]...';
 
 
 GO
-CREATE TABLE [dbo].[Apoderado] (
+CREATE TABLE [dbo].[APODERADO] (
     [Id]        INT           NOT NULL,
     [Nombre]    NVARCHAR (50) NOT NULL,
     [Telefono]  NVARCHAR (50) NOT NULL,
-    [ID_Alumno] INT           NOT NULL,
+    [Id_Alumno] INT           NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
@@ -276,12 +276,12 @@ PRINT N'Creando Tabla [dbo].[CURSO]...';
 
 GO
 CREATE TABLE [dbo].[CURSO] (
-    [cod]          INT           NOT NULL,
-    [Nombre]       NCHAR (10)    NULL,
-    [Fecha_Inicio] NVARCHAR (50) NULL,
-    [duracion]     INT           NULL,
-    [valor]        INT           NULL,
-    PRIMARY KEY CLUSTERED ([cod] ASC)
+    [Cod]          INT           NOT NULL,
+    [Nombre]       NVARCHAR (50) NOT NULL,
+    [Fecha_Inicio] NVARCHAR (50) NOT NULL,
+    [Duracion]     INT           NOT NULL,
+    [Valor]        INT           NOT NULL,
+    PRIMARY KEY CLUSTERED ([Cod] ASC)
 );
 
 
@@ -292,19 +292,19 @@ PRINT N'Creando Tabla [dbo].[INSCRITO]...';
 GO
 CREATE TABLE [dbo].[INSCRITO] (
     [Id]        INT IDENTITY (1, 1) NOT NULL,
-    [ID_Alumno] INT NOT NULL,
-    [cod_Curso] INT NOT NULL,
+    [Id_Alumno] INT NOT NULL,
+    [Cod_Curso] INT NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
 
 GO
-PRINT N'Creando Clave externa [dbo].[FK_Apoderado_ToTable]...';
+PRINT N'Creando Clave externa [dbo].[FK_APODERADO_ALUMNO]...';
 
 
 GO
-ALTER TABLE [dbo].[Apoderado]
-    ADD CONSTRAINT [FK_Apoderado_ToTable] FOREIGN KEY ([ID_Alumno]) REFERENCES [dbo].[ALUMNO] ([Id]);
+ALTER TABLE [dbo].[APODERADO]
+    ADD CONSTRAINT [FK_APODERADO_ALUMNO] FOREIGN KEY ([Id_Alumno]) REFERENCES [dbo].[ALUMNO] ([Id]);
 
 
 GO
@@ -313,7 +313,7 @@ PRINT N'Creando Clave externa [dbo].[FK_INSCRITO_ALUMNO]...';
 
 GO
 ALTER TABLE [dbo].[INSCRITO]
-    ADD CONSTRAINT [FK_INSCRITO_ALUMNO] FOREIGN KEY ([ID_Alumno]) REFERENCES [dbo].[ALUMNO] ([Id]);
+    ADD CONSTRAINT [FK_INSCRITO_ALUMNO] FOREIGN KEY ([Id_Alumno]) REFERENCES [dbo].[ALUMNO] ([Id]);
 
 
 GO
@@ -322,7 +322,7 @@ PRINT N'Creando Clave externa [dbo].[FK_INSCRITO_CURSO]...';
 
 GO
 ALTER TABLE [dbo].[INSCRITO]
-    ADD CONSTRAINT [FK_INSCRITO_CURSO] FOREIGN KEY ([cod_Curso]) REFERENCES [dbo].[CURSO] ([cod]);
+    ADD CONSTRAINT [FK_INSCRITO_CURSO] FOREIGN KEY ([Cod_Curso]) REFERENCES [dbo].[CURSO] ([Cod]);
 
 
 GO
@@ -334,12 +334,10 @@ BEGIN
     EXEC sp_addextendedproperty N'microsoft_database_tools_support', N'refactoring log', N'schema', N'dbo', N'table', N'__RefactorLog'
 END
 GO
-IF NOT EXISTS (SELECT OperationKey FROM [dbo].[__RefactorLog] WHERE OperationKey = '68267c36-c80d-4c59-b8b6-2c18dc46cc9f')
-INSERT INTO [dbo].[__RefactorLog] (OperationKey) values ('68267c36-c80d-4c59-b8b6-2c18dc46cc9f')
-IF NOT EXISTS (SELECT OperationKey FROM [dbo].[__RefactorLog] WHERE OperationKey = '770f6d31-cb86-4eaf-b29e-a1da8af3fbd3')
-INSERT INTO [dbo].[__RefactorLog] (OperationKey) values ('770f6d31-cb86-4eaf-b29e-a1da8af3fbd3')
-IF NOT EXISTS (SELECT OperationKey FROM [dbo].[__RefactorLog] WHERE OperationKey = '62c685aa-e538-4937-95c7-2cc8407252f9')
-INSERT INTO [dbo].[__RefactorLog] (OperationKey) values ('62c685aa-e538-4937-95c7-2cc8407252f9')
+IF NOT EXISTS (SELECT OperationKey FROM [dbo].[__RefactorLog] WHERE OperationKey = 'd76e0edb-3fd6-4149-808f-ce6c3a99ae16')
+INSERT INTO [dbo].[__RefactorLog] (OperationKey) values ('d76e0edb-3fd6-4149-808f-ce6c3a99ae16')
+IF NOT EXISTS (SELECT OperationKey FROM [dbo].[__RefactorLog] WHERE OperationKey = 'c11e349d-1be2-4e30-8e6f-4ec1871c7591')
+INSERT INTO [dbo].[__RefactorLog] (OperationKey) values ('c11e349d-1be2-4e30-8e6f-4ec1871c7591')
 
 GO
 

@@ -6,7 +6,7 @@
     <Name>SQLDBPrac1</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{831d69cc-9663-4730-9421-e8b8ead0ffc4}</ProjectGuid>
+    <ProjectGuid>{3fa7fb17-4bcc-4581-95a9-0f2ade6629ef}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -59,7 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="ALUMNO.sql" />
-    <Build Include="Apoderado.sql" />
+    <Build Include="APODERADO.sql" />
     <Build Include="CURSO.sql" />
     <Build Include="INSCRITO.sql" />
   </ItemGroup>
