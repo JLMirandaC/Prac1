@@ -72,7 +72,7 @@ namespace ORMPrac1._0
                     if (indice >= oCurso.Count) ;
                     indice = oCurso.Count - 1;
 
-                   
+                    cadena = oCurso[indice].cod.ToString() + "-" + oCurso[indice].Nombre + "- es el curso de -" + oCurso.Find(a => a.cod == (int)oCurso[indice].cod).Nombre;
 
                 break;
 
@@ -80,7 +80,7 @@ namespace ORMPrac1._0
                     if (indice >= oInscrito.Count)
                         indice = oInscrito.Count - 1;
 
-                   
+                    cadena = oInscrito[indice].Id.ToString() + "-" + oInscrito[indice].cod_Curso + "-es la inscripción de " + oInscrito.Find(a => a.Id == (int)oInscrito[indice].ID_Alumno).cod_Curso;
 
                     break;
 
