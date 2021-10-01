@@ -1,0 +1,15 @@
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\obj\Debug\ORMPrac1.csproj.AssemblyReference.cache
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\obj\Debug\ORMPrac1.Form1.resources
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\obj\Debug\ORMPrac1.Properties.Resources.resources
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\obj\Debug\ORMPrac1.csproj.GenerateResource.cache
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\obj\Debug\ORMPrac1.csproj.CoreCompileInputs.cache
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\bin\Debug\ORMPrac1.exe.config
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\bin\Debug\ORMPrac1.exe
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\bin\Debug\ORMPrac1.pdb
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\bin\Debug\EntityFramework.dll
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\bin\Debug\EntityFramework.xml
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\obj\Debug\ORMPrac1.csproj.CopyComplete
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\obj\Debug\ORMPrac1.exe
+C:\Users\jairt\Desktop\ARCH JM\GIT\Prac1\ORMPrac1\ORMPrac1\obj\Debug\ORMPrac1.pdb
