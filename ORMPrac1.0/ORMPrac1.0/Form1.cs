@@ -61,6 +61,9 @@ namespace ORMPrac1._0
                     cadena = oAlumno[indice].Id.ToString() + " - " + oAlumno[indice].Nombre + ", de " + oAlumno[indice].Ciudad + "," + oAlumno[indice].Edad + " años";
                     break;
                 case 1:
+
+                    using(Model.DBPrac1Entities db= new Model.DBPrac1Entities())
+      
                     if (indice >= oApoderado.Count)
                         indice = oApoderado.Count - 1;
 
@@ -71,16 +74,18 @@ namespace ORMPrac1._0
                 case 2:
                     if (indice >= oCurso.Count) ;
                     indice = oCurso.Count - 1;
+                    using (Model.DBPrac1Entities db = new Model.DBPrac1Entities())
 
-                    cadena = oCurso[indice].cod.ToString() + "-" + oCurso[indice].Nombre + "- es el curso de -" + oCurso.Find(a => a.cod == (int)oCurso[indice].cod).Nombre;
+                        cadena = oCurso[indice].cod.ToString() + "-" + oCurso[indice].Nombre + "- es el curso de -" + oCurso.Find(a => a.cod == (int)oCurso[indice].cod).Nombre;
 
                 break;
 
                 case 3:
                     if (indice >= oInscrito.Count)
                         indice = oInscrito.Count - 1;
+                    using (Model.DBPrac1Entities db = new Model.DBPrac1Entities())
 
-                    cadena = oInscrito[indice].Id.ToString() + "-" + oInscrito[indice].cod_Curso + "-es la inscripción de " + oInscrito.Find(a => a.Id == (int)oInscrito[indice].ID_Alumno).cod_Curso;
+                        cadena = oInscrito[indice].Id.ToString() + "-" + oInscrito[indice].cod_Curso + "-es la inscripción de " + oInscrito.Find(a => a.Id == (int)oInscrito[indice].ID_Alumno).cod_Curso;
 
                     break;
 
