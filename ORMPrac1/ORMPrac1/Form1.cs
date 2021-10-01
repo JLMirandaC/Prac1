@@ -63,7 +63,7 @@ namespace ORMPrac1
                     {
 
 
-                        cadena = oCurso[indice].cod.ToString() + ". " + oCurso[indice].Nombre + ", es el Curso de " + oCurso.Find(a => a.cod == (int)oCurso[indice].cod).Nombre;
+                        cadena = oCurso[indice].cod.ToString() + ". " + oCurso[indice].Nombre + " es el Curso de " + oCurso.Find(a => a.cod == (int)oCurso[indice].cod).Nombre;
                         break;
                     }
 
@@ -76,7 +76,7 @@ namespace ORMPrac1
                         oCurso = db.CURSO.ToList();
                         oAlumno = db.ALUMNO.ToList();
 
-                        cadena = oInscrito[indice].Id.ToString() + ". " + oInscrito[indice].CURSO + ", es el Inscrito de " + oInscrito.Find(a => a.Id == (int)oInscrito[indice].ID_Alumno).CURSO;
+                        cadena = oInscrito[indice].Id.ToString() + ". " + oInscrito[indice].CURSO + " es el Inscrito de " + oInscrito.Find(a => a.Id == (int)oInscrito[indice].ID_Alumno).CURSO;
                         break;
                     }
 
