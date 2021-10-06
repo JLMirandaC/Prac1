@@ -57,8 +57,9 @@ namespace ORMPrac1._0
                 case 0:
                     if (indice >= oAlumno.Count)
                         indice = oAlumno.Count - 1;
+                   
 
-                    cadena = oAlumno[indice].Id.ToString() + " - " + oAlumno[indice].Nombre + ", de " + oAlumno[indice].Ciudad + "," + oAlumno[indice].Edad + " años";
+                        cadena = oAlumno[indice].Id.ToString() + " - " + oAlumno[indice].Nombre + ", de " + oAlumno[indice].Ciudad + "," + oAlumno[indice].Edad + " años";
                     break;
                 case 1:
 

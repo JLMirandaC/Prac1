@@ -54,7 +54,7 @@ namespace ORMPrac1
                         cadena = oApoderado[indice].Id.ToString() + ". " + oApoderado[indice].Nombre + ", es el apoderad@ de " + oAlumno.Find(a => a.Id == (int)oApoderado[indice].ID_Alumno).Nombre;
                         break;
                     }
-
+              
                 case 2:
                     if (indice >= oCurso.Count)
                         indice = oCurso.Count - 1;
@@ -81,8 +81,9 @@ namespace ORMPrac1
                     }
 
             }
+            textBox1.Text = cadena;
         }
-        
+       
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -102,11 +103,7 @@ namespace ORMPrac1
                     case 3:
                         oInscrito = db.INSCRITO.ToList();
                         break;
-
-
                 }
-
-
 
             }
             indice = 0;
