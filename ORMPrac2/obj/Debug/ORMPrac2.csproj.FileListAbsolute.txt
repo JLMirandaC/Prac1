@@ -1,0 +1,15 @@
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\obj\Debug\ORMPrac2.csproj.AssemblyReference.cache
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\obj\Debug\ORMPrac2.Form1.resources
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\obj\Debug\ORMPrac2.Properties.Resources.resources
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\obj\Debug\ORMPrac2.csproj.GenerateResource.cache
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\obj\Debug\ORMPrac2.csproj.CoreCompileInputs.cache
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\bin\Debug\ORMPrac2.exe.config
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\bin\Debug\ORMPrac2.exe
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\bin\Debug\ORMPrac2.pdb
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\bin\Debug\EntityFramework.dll
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\bin\Debug\EntityFramework.xml
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\obj\Debug\ORMPrac2.csproj.CopyComplete
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\obj\Debug\ORMPrac2.exe
+D:\Documents\UDI\Base de datos\Pract1\ORMPrac2\obj\Debug\ORMPrac2.pdb

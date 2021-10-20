@@ -76,11 +76,12 @@ namespace ORMPrac1
                         oCurso = db.CURSO.ToList();
                         oAlumno = db.ALUMNO.ToList();
 
-                        cadena = oInscrito[indice].Id.ToString() + ". " + oInscrito[indice].CURSO + " es el Inscrito de " + oInscrito.Find(a => a.Id == (int)oInscrito[indice].ID_Alumno).CURSO;
+                        cadena = oInscrito[indice].Id.ToString() + "--" + oInscrito[indice].cod_Curso + " Es el inscrito de " + oInscrito.Find(a => a.Id == oInscrito[indice].ID_Alumno).cod_Curso;
                         break;
                     }
-
+                    
             }
+            
             textBox1.Text = cadena;
         }
        
